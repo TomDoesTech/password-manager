@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tom Nagle",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --exit-child --transpile-only src/main.ts"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/lodash": "^4.14.182",
+    "pino-pretty": "^7.6.1",
+    "pretty-print": "^2.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^6.0.0",
+    "@fastify/cors": "^7.0.0",
+    "@fastify/jwt": "^5.0.1",
+    "@typegoose/typegoose": "^9.8.1",
+    "argon2": "^0.28.5",
+    "crypto-js": "^4.1.1",
+    "fastify": "^3.29.0",
+    "fastify-zod": "^1.0.0-rc10",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.4",
+    "pino": "^7.11.0",
+    "zod": "^3.17.3"
+  }
+}
