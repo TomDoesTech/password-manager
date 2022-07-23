@@ -22,6 +22,7 @@
     "@typegoose/typegoose": "^9.8.1",
     "argon2": "^0.28.5",
     "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
     "fastify": "^3.29.0",
     "fastify-zod": "^1.0.0-rc10",
     "lodash": "^4.17.21",
